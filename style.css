@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(images/background_hehe.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    height: 100vh;
+}
+.th1, .th2, .th3{
+    background-color:aliceblue;
+}
+nav{
+    background-color:transparent;
+    width: 500px;
+    padding: 15px 30px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav a {
+    color:aliceblue;
+    text-decoration: none;
+    transition: color 0,3s ease, transform 0,3s ease;
+
+}
+
+nav a:hover {
+    color:white;
+    transform: scale(1.1);
+}
+nav a{
+    display: block;
+    text-align: center;
+}
+@media (max-width:1439px){
+    nav{
+        font-size: 16px;
+        gap: 20px;
+        padding: 10px;
+    }
+nav a{
+    display: block;
+    text-align: center;
+    /* width: 100%; */
+}    
+}
+.header{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.article{
+    color:aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tr{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tr2{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.cv{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email{
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+form input[type="email"],
+form textarea{
+    background-color: black;
+    color: aliceblue;
+}
+
+.h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
